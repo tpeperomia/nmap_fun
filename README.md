@@ -1,4 +1,5 @@
-# Nmap Scan Automation Script
+# Nmap Scan Automation Script &#127758;
+
 This script automates the process of running Nmap scans on a specified target IP address. It allows you to configure various scan options such as stealth mode, verbosity, operating system detection, and specific port scanning, all through a simple command-line interface.
 
 ## Features
