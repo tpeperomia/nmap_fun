@@ -2,6 +2,10 @@
 
 This script automates the process of running Nmap scans on a specified target IP address. It allows you to configure various scan options such as stealth mode, verbosity, operating system detection, and specific port scanning, all through a simple command-line interface.
 
+## File list
+1. nmapfun1.sh - I began putting this script together in start to finish fashion.
+2. nmapfun3.sh - I circled back and tried to tidy up the script with some global stylying defines and other additions.
+
 ## Features
 * Check if Nmap is installed: Verifies if Nmap is available on your system.
 * Customisable Scan Options: Choose from a variety of options:
@@ -37,3 +41,4 @@ chmod +x nmap_scan.sh
 * Decide if you want to check the target's operating system.
 * Specify ports to scan (optional).
 4.  Sudo: Some features like stealth scanning and OS detection require root privileges. The script will automatically request sudo when needed.
+
